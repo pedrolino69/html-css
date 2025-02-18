@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkgray;
+            margin: 0px;
+        }
+
+        header {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        
+        h1 {
+
+          box-shadow: inset 1px 3px 3px black;
+          border-radius: 5px;
+          padding: 2px;
+          text-align: center;
+        }
+
+
+
+        nav {
+            background-color: darkgray;
+            padding: 3px;
+            box-shadow: 2px x 2px rgb(0, 0, 0);
+        }
+
+
+        nav > a {
+           
+          text-decoration: none;
+          color: rgb(58, 54, 54);
+          font-weight: bold;
+          margin-right: 30px;
+          padding: 2px;
+        }
+
+
+        nav > a:hover {
+         
+          text-decoration: underline;
+
+        }
+
+
+
+        main {
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 8px;
+            box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.425);
+        }
+       
+
+        footer {
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+        }
+
+        footer > p {
+            margin: 0px;
+        }
+    </style>
+
+
+</head>
+<body>
+    <header>
+       <h1>Meu site</h1>
+       <nav>
+        <a href="#"></a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+            <a href="#">Links</a>
+        </nav>
+    </header>
+
+    <main>
+         <section id="assuntos">
+           <p>O Botafogo está uma merda</p>
+         </section>
+         
+         <section id="noticias">
+           <article>
+            <h2>Noticias</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit, neque cumque exercitationem iste quos obcaecati facere odit aliquid explicabo quae repellat eveniet nemo delectus dolorum nulla sunt est hic repudiandae?</p>
+            <aside>
+                <p>Artigo escrito por denilson</p>
+            </aside>
+           </article>
+         </section>
+    </main>
+    
+    
+    <footer>
+        <p>Desenvolvido Por Pedro.</p>
+    </footer>
+</body>
+</html>

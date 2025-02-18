@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens em Html5</title>
+</head>
+<body>
+    <h1>Imagens dinamicas</h1>
+    <p>Abra esse site em dispositivos diferentes</p>
+
+    <picture>
+         <source media="(max-width:750px)" srcset="imagens/fotopp.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Foto Grande">
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos ouvir uma musica</p>
+     <audio src="midia/observer-mp3.mp3" controls autoplay></audio>
+     <p>Infelizmente voce nao consegue reproduzir audio</p>
+     
+    <a href="midia/observer-mp3.mp3" target="_blank" rel="next">clique aqui para baixar o audio</a>
+</body>
+</html>
